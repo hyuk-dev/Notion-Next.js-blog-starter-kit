@@ -55,6 +55,11 @@ export default siteConfig({
       title: '문의하기',
       pageId: '4d16349ea27d48e8853ca9edcbe4fd4a',
     },
+    {
+      title: '문의',
+      pageId: '4d16349ea27d48e8853ca9edcbe4fd4a',
+      menuPage: true,
+    },
   ],
 
   // -------- custom configs (2skydev) -------------
@@ -72,5 +77,5 @@ export default siteConfig({
   defaultTheme: 'system',
 
   // enable comment
-  enableComment: true,
+  enableComment: false,
 });
