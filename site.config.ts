@@ -52,12 +52,12 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
     {
-      title: '문의하기',
-      pageId: '4d16349ea27d48e8853ca9edcbe4fd4a',
+      title: '카테고리',
+      pageId: '83dd9d1744904d40b6f42242c9b00b66',
     },
     {
-      title: '문의',
-      pageId: '4d16349ea27d48e8853ca9edcbe4fd4a',
+      title: '카테고리',
+      pageId: '83dd9d1744904d40b6f42242c9b00b66',
       menuPage: true,
     },
   ],
