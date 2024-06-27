@@ -25,7 +25,7 @@ import { loadPrismComponentsWithRetry } from '~/lib/load-prism-components';
 import Comments from './Comments';
 // components
 import { Loading } from './Loading';
-// import { Footer } from './Footer';
+import { Footer } from './Footer';
 import { NotionPageHeader, ToggleThemeButton } from './NotionPageHeader';
 import { Page404 } from './Page404';
 import { PageAside } from './PageAside';
