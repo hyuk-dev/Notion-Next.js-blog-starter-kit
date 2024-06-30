@@ -77,5 +77,5 @@ export default siteConfig({
   defaultTheme: 'system',
 
   // enable comment
-  enableComment: false,
+  enableComment: true,
 });
