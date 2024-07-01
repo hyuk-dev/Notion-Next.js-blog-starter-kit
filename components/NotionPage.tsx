@@ -224,6 +224,8 @@ export const NotionPage: React.FC<types.PageProps> = ({
 
   const socialDescription = getPageProperty<string>('설명', block, recordMap) || config.description;
 
+  let comments: React.ReactNode = null
+
   const isIndexPage = pageId === site.rootNotionPageId;
 
   const hasCollectionView = Object.keys(recordMap.collection_query).length;
