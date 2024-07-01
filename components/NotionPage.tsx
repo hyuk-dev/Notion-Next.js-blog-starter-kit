@@ -229,7 +229,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
   const hasCollectionView = Object.keys(recordMap.collection_query).length;
 
   if(isBlogPost) {
-    comments = (
+    Comments = (
       <Giscus
         id="comments"
         repo="hyuk-dev/Notion-Next.js-blog-starter-kit"
