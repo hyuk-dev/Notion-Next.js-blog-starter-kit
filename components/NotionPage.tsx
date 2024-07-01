@@ -27,6 +27,7 @@ import Comments from './Comments';
 import { Loading } from './Loading';
 import { Footer } from './Footer';
 import { NotionPageHeader, ToggleThemeButton } from './NotionPageHeader';
+import Giscus from '@giscus/react';
 import { Page404 } from './Page404';
 import { PageAside } from './PageAside';
 import { PageHead } from './PageHead';
@@ -226,6 +227,26 @@ export const NotionPage: React.FC<types.PageProps> = ({
   const isIndexPage = pageId === site.rootNotionPageId;
 
   const hasCollectionView = Object.keys(recordMap.collection_query).length;
+
+  if(isBlogPost) {
+    comments = (
+      <Giscus
+        id="comments"
+        repo="hyuk-dev/Notion-Next.js-blog-starter-kit"
+        repoId="R_kgDOMNRiwA"
+        category="Comments"
+        categoryId="DIC_kwDOMNRiwM4CgfoZ"
+        mapping="pathname"
+        term="Welcome to @giscus/react component!"
+        reactionsEnabled="1"
+        emitMetadata="0"
+        inputPosition="bottom"
+        theme={isDarkMode ? 'dark_tritanopia' : 'github-light'}
+        lang="ko"
+        loading="lazy"
+      />
+    )
+  }
 
   return (
     <>
