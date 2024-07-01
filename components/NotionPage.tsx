@@ -243,11 +243,11 @@ export const NotionPage: React.FC<types.PageProps> = ({
         reactionsEnabled="1"
         emitMetadata="0"
         inputPosition="bottom"
-        theme={isDarkMode ? 'dark_tritanopia' : 'github-light'}
+        theme={isDarkMode ? 'dark_tritanopia' : 'light'}
         lang="ko"
         loading="lazy"
       />
-    )
+    );
   }
 
   return (
