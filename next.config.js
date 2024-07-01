@@ -27,6 +27,14 @@ module.exports = withBundleAnalyzer({
         protocol: 'https',
         hostname: 's3.*.amazonaws.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'transitivebullsh.it',
+      },
+      {
+        protocol: 'https',
+        hostname: 'hyuk.dev',
+      }
     ],
     formats: ['image/avif', 'image/webp'],
     dangerouslyAllowSVG: true,
