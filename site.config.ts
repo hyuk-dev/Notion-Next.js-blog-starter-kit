@@ -49,18 +49,9 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'default',
-  navigationLinks: [
-    {
-      title: '카테고리',
-      pageId: '83dd9d1744904d40b6f42242c9b00b66',
-    },
-    {
-      title: '카테고리',
-      pageId: '83dd9d1744904d40b6f42242c9b00b66',
-      menuPage: true,
-    },
-  ],
+  //navigationStyle: 'custom',
+  //navigationLinks: [
+  //],
 
   // -------- custom configs (2skydev) -------------
 
