@@ -50,8 +50,17 @@ export default siteConfig({
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
   navigationStyle: 'custom',
-  //navigationLinks: [
-  //],
+  navigationLinks: [
+    {
+      title: '블로그',
+      pageId: '12b1d3ec8aab4778b83a4e7b6ade923c',
+    },
+    {
+      title: '블로그',
+      pageId: '12b1d3ec8aab4778b83a4e7b6ade923c',
+      menuPage: true,
+    },
+  ],
 
   // -------- custom configs (2skydev) -------------
 
