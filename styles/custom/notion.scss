@@ -69,7 +69,7 @@ body {
   &:not(.dark-mode) {
     // 글 목록을 가지고 있는 페이지라면 배경 색 변경
     .hasCollectionView {
-      --bg-color: #fffffff6;
+      --bg-color: #fff3cc;
     }
   }
 }
