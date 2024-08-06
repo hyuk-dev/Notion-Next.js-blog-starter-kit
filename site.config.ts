@@ -52,11 +52,11 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
     {
-      title: '블로그',
+      title: '메뉴',
       pageId: '12b1d3ec8aab4778b83a4e7b6ade923c',
     },
     {
-      title: '블로그',
+      title: '메뉴',
       pageId: '12b1d3ec8aab4778b83a4e7b6ade923c',
       menuPage: true,
     },
