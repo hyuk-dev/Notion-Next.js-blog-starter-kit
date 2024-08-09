@@ -20,8 +20,8 @@ export default siteConfig({
   // twitter: 'transitive_bs',
   github: 'hyuk-dev',
   linkedin: '동혁-이-2aa9962b8',
-  newsletter: '#', // optional newsletter URL
-  // youtube: '', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
+  //newsletter: '#', // optional newsletter URL
+  youtube: '@user-wc7rx9gp5h', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
