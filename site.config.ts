@@ -52,8 +52,13 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
     {
-      title: '블로그',
-      pageId: 'https://tech.hyuk.dev/',
+      title: '카테고리',
+      pageId: '40ab8aceb94644c497068d9b9251c6f5',
+    },
+    {
+      title: '카테고리',
+      pageId: '40ab8aceb94644c497068d9b9251c6f5',
+      menuPage: true,
     },
   ],
 
