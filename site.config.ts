@@ -9,12 +9,12 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: '이동혁 개발 홈페이지',
-  domain: 'hyuk-dev.vercel.app',
+  name: '이동혁 개발자',
+  domain: 'hyuk.dev',
   author: 'hyuk-dev',
 
   // open graph metadata (optional)
-  description: '이동혁 개발 홈페이지',
+  description: '이동혁 개발자 홈페이지',
 
   // social usernames (optional)
   // twitter: 'transitive_bs',
@@ -49,9 +49,13 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  // ],
+  navigationStyle: 'custom',
+  navigationLinks: [
+    {
+      title: '블로그',
+      pageId: 'https://tech.hyuk.dev/',
+    },
+  ],
 
   // -------- custom configs (2skydev) -------------
 
